@@ -1,0 +1,24 @@
+{
+  "name": "resload-text",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "json.js",
+    "browser.js",
+    "browser_json.js"
+  ],
+  "browser": {
+    "index.js": "browser.js",
+    "json.js": "browser_json.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Casper Beyer <caspervonb@qup.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
